@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rostipollos</title>
+    <style>
+        body{
+            background-color: rgb(255, 247, 98);
+        }
+
+        img{
+            border-radius: 50%;
+            height: 220px;
+            
+            width: 220px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./Logo.png" alt="Logo_Rostipollos">
+    </header>
+
+    <section class="Menu">
+        <h1>Menu</h1>
+        <ol>
+            <li>Pollo rostisado ----------- $100</li>
+            <li>Salchichas ------------------ $20</li>
+            <li>Salsas ----------------------- $15</li>
+            <li>Arroz ------------------------ $25</li>
+        </ol>
+    </section>
+    
+    <br>
+
+    <section class="Combos">
+        <h1>Combos</h1>
+        <ol>
+            <li>Combo Papas ------------- $120</li>
+            <li>Combo Frijoles ----------- $130</li>
+            <li>Combo Refresco ---------- $125</li>
+            <li>Combo Total -------------- $170</li>
+        </ol>
+    </section>
+
+    <br>
+
+    <section class="Ofertas">
+        <table>
+            <tr>
+                <th>Oferta</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>2 combos papas</td>
+                <td>$180</td>
+            </tr>
+            <tr>
+                <td>2 combos Total</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td>2 Pollos</td>
+                <td>$150</td>
+            </tr>
+        </table>
+    </section>
+
+    <br>
+
+    <section class="Formulario">
+        <h1>Ordena Aquí</h1>
+        <form action="">
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="Nombre" placeholder="Introduce tu nombre"><br><br>
+            <label for="Telefono">Telefono</label>
+            <input type="number" maxlength="10" placeholder="Introduce tu telefono"><br>
+            <h3>¿Qué quieres que te llevemos?</h3>
+            <label for="Menu">Selecciona una opcion del menu</label>
+            <input type="number" placeholder="Selecciona una opcion del menu" maxlength="1"><br><br>
+            <label for="unit">Cuantas unidadades?</label>
+            <input type="number" placeholder="Cuanto quieres?" maxlength="2" required>
+            <h3>¿Quieres un combo?</h3>
+            <label for="commbos">Selecciona una opcion de los combos</label>
+            <input type="number" name="commbos" placeholder="Selecciona una opcion de los combos" maxlength="2"><br><br>
+            <label for="unitt">Cuantas unidadades?</label>
+            <input type="number" placeholder="Cuanto quieres?" maxlength="2"><br>
+            <h3>A donde lo llevamos?</h3>
+            <label for="direcc">Dirección</label>
+            <input type="text" name="derecc" placeholder="Introduce tu direccion">
+            <input type="submit" value="Enviar Pedido">
+        </form>
+    </section>
+
+    <footer>
+        <h1>Quieres visitar el local?</h1>
+        <p>Encuentranos en: <a href="https://goo.gl/maps/vc2vHYjVdj14ihZ69" target="_blank">El Ángel de la Independencia</a></p>
+    </footer>
+
+</body>
+</html>
